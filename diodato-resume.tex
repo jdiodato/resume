@@ -1,93 +1,173 @@
 \documentclass{article}
 \usepackage{libertine}
-\usepackage[ portrait, margin=0.5in]{geometry}
+\usepackage[portrait, margin=1in]{geometry}
 \usepackage{titlesec}
-\titleformat*{\section}{\scshape\bfseries\large}
-\titleformat*{\subsection}{\normalsize\bfseries}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\pagestyle{fancy}
 
+% url colors 
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+  }
+
+% Line breaks without hypens 
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+\titleformat*{\section}{\scshape\bfseries\Large}
+\titleformat*{\subsection}{\normalsize\bfseries}
+% redefine \Huge font size -- currently a bit too large for my liking
+% possibly make the small all cap font a bit larger?
+% add last name behind resume page number?
 
 \begin{document}
 
-\title{Resume}
-\author{Joseph A. Diodato}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[C]{
+  \Huge{Joseph A. Diodato} \linebreak
+  \large  Bloomington, IN, 47406 \normalsize \linebreak
+  % uncomment below to include phone number in header
+  % don't forget to include actual phone number
+  % \includegraphics[width = 0.15in]{phone.png} \textit{XXX-XXX-XXXX} \hfill
+  \includegraphics[width = 0.15in]{email.png}
+  \href{mailto:jadiodato@gmail.com}{\texttt{jadiodato@gmail.com}} \hspace{2mm}
+  \includegraphics[width = 0.15in]{url.png}
+  \url{www.diodato.org} \hspace{2mm}
+  \includegraphics[width=0.15in]{linkedin.png}
+  \href{https://www.linkedin.com/in/jdiodato/}{\texttt{jdiodato}}  \hspace{2mm}
+  \includegraphics[width = 0.15in]{github.png}
+  \href{https://github.com/jdiodato}{\texttt{jdiodato}}
+}
 
-\maketitle
 
-\section*{Education} 
-  
+\hspace{0.10in}
+\section*{Education\hrulefill} 
 
-\subsection*{Indiana University, Bloomington, IN}
+\subsection*{Indiana University, Bloomington, IN \hfill \textnormal{ Expected May 2020}}
 \begin{itemize}
 \item Master of Science in Education (M.S.Ed.): Higher Education and  Student Affairs (HESA)
 \item Graduate Certificate in Institutional Research (IR)
 \end{itemize}
 
-\subsection*{The University of North Carolina at Greensboro, Greensboro, NC}
+\subsection*{The University of North Carolina at Greensboro, Greensboro, NC
+  \hfill \textnormal{ May 2017}}
 \begin{itemize}
 \item Bachelor of Arts (B.A.) in Classical Studies
 \end{itemize}
 
-\section*{Selected Work Experience}
+\section*{Selected Work Experience\hrulefill}
 
-\textbf{Graduate Assistant for Assessment and Special Projects}
+\subsection*{Graduate Assistant for Assessment and Special Projects \hfill
+  \textnormal{July 2018 - December 2019}}
+\textit{Residential Programs and Services, Indiana University}
 \begin{itemize}
-\item placeholder 1
-\item placeholder 2
-\item placeholder 3
+\item Created and implemented an assessment strategy for the department's
+  residential curriculum, consisting of 51 Student Engagement Plans.
+\item Utilized Roompact software to oversee the collection of student learning
+  data from over 300 staff members.
+\item Oversaw all aspects of creating and implementing the Fall 2019 Move-in
+  Survey, analyzing data from over 3,500 respondents. 
 \end{itemize}
 
+\subsection*{ACUHO-I Graduate Intern for Student Conduct and Assessment  \hfill
+  \textnormal{May 2018 - July 2018}}
+\textit{University Housing, Florida State University}
 \begin{itemize}
-\item \textbf{Graduate Assistant for Assessment and Special
-    Projects}
-  \begin{itemize}
-  \item placeholder 1
-  \item placeholder 2
-  \item placeholder 3
-  \end{itemize}
-\item \textbf{ACUHO-I Graduate Intern for Conduct and Assessment}
-\item \textbf{Graduate Hearing Officer}
-\item \textbf{Graduate Supervisor for Residential Life, Briscoe Center}
-\item \textbf{ACUHO-I Summer Camps and Conferences Intern}
+\item Created detailed documentation for open and axial coding of Skyfactor
+  survey data (formerly EBI MAP-Works). 
+\item Utilized Qualtrics to implement the department's first formal assessment
+  of conduct training for approximately 50 student staff. 
 \end{itemize}
 
-\section*{Teaching Experience}
+\subsection*{Graduate Hearing Officer  \hfill
+  \textnormal{January 2018 - May 2018}}
+\textit{Office of Student Conduct, Indiana University}
 \begin{itemize}
-\item \textbf{Co-instructor, EDUC-U450: Foundations of Residential Leadership (2
-  credit hours)}
-\item \textbf{Instructor, EDUC-U207: Leadership Training (2 credit hours)}
+\item Facilitated 40 academic misconduct and 10 personal misconduct cases by
+  providing students with notice of alleged policy violations and educating
+  students on the conduct process.
+\item Utilized theories of moral and ethical development to engage students in
+  conversations around decision-making.
 \end{itemize}
 
-\section*{Selected Professional Presentations}
+\subsection*{Graduate Supervisor for Residential Life, Briscoe Center  \hfill
+  \textnormal{July 2017 - May 2018}}
+\textit{Residential Programs and Services, Indiana University}
+\begin{itemize}
+\item Co-managed a 750-bed residence hall, including supervision of 20 resident
+  assistants, desk operations, weekly judicial meetings, and staff meetings.
+\item Trained, supervised, and evaluated 10 RA's through bi-weekly one-on-one
+  meetings and staff meetings.
+\item Advised an 11-person hall govern in matters of programming, student
+  engagement, and the management of an \$8,000 yearly budget.
+\item Served two weeks per semester in an on-call rotation for an area of 2,150 residents.
+ \end{itemize}
+
+\subsection*{ACUHO-I Summer Camps and Conferences Intern  \hfill
+  \textnormal{May 2017 - July 2017}}
+\textit{Residential Living \& Learning, Texas A\&M University - Commerce}
+\begin{itemize}
+\item Facilitated all aspects of housing for 1,350 orientation students across
+  six sessions, including room assignments, accommodations, building
+  preparations, and card access.
+\item Co-supervised 18 summer conference assistants in the facilitation of a
+  comprehensive summer camp and conferences housing program.
+\end{itemize}
+
+\section*{Teaching Experience\hrulefill}
+\begin{itemize}
+\item {EDUC-U450: Foundations of Residential Leadership (2
+ credit hours) \hfill Spring 2019, 2018}
+\item {EDUC-U207: Leadership Training (2 credit hours) \hfill Spring 2019}
+\end{itemize}
+
+
+
+\section*{Selected Professional Presentations\hrulefill}
 \begin{itemize}
 \item Bailey, V., Chandley, K., Diodato, J. A., Falgowski, M., Frisbie, K., \&
   Muyshondt, C. \textit{An Exploratory Analysis of the School of Informatics,
     Computing, and Engineering Living and Learning Center}. (December
   2018). Group presentation at the 2018 Indiana University HESA Group Assessment
-  Symposium
+  Symposium.
 \item Diodato, J.A., Garcia, A., \& Paracha, K. \textit{Undocumented Students
     and DACA}. (October 2017). Poster Presentation at the Indiana Student
   Affairs Association Conference.
 
 \end {itemize}
 
-\section*{Selected University and Community Service}
+\section*{Selected University and Community Service \hrulefill}
 \begin{itemize}
 \item Bloomington Pipers' Society, \textbf{Website \& Social Media Coordinator}
-\item Bloomington Pipers' Society, \textbf{Beginners' Circle Program Coordinator}
-\item Residential Curriculum Assessment Committee, \textbf{Co-chair}
-\item Housing Conduct and Assessment Workgroup, \textbf{Member} \tiny(FSU) \normalsize
-\item Residential Life Diversity Committee, \textbf{Member}
+  \hfill May 2019 - Present
+\item Bloomington Pipers' Society, \textbf{Beginners' Circle Program
+    Coordinator}\hfill October 2019 - Present
+\item Residential Curriculum Assessment Committee, \textbf{Co-chair} (IU)\hfill
+  August 2018 - December 2019
+\item Housing Conduct and Assessment Workgroup, \textbf{Member} (FSU)\hfill
+  Summer 2018
+\item Residential Life Diversity Committee, \textbf{Member} (IU)\hfill August 2017 -
+  May 2018
 \end{itemize}
 
-\section*{Skills}
+\section*{Skills \hrulefill}
 \begin{itemize}
-\item \textbf{Data Analysis}: SPSS, R
+\item \textbf{Data Analysis}: R, SPSS, Atlas.ti, RQDA (\textbf{R} Package for
+  \textbf{Q}ualitative \textbf{D}ata \textbf{A}nalysis)
 \item \textbf{Operating Systems}: Windows, Mac, Linux (Debian-based)
 \item \textbf{Other Computing Tools}: Microsoft Office/LibreOffice, \LaTeX,
-  Wordpress, Blogger, Jekyll static site generator, emacs, git (version
-  control), JIRA (project/issue tracking)
+  Wordpress, Blogger, Jekyll static site generator, Emacs, GitHub, git (version
+  control), JIRA (project/issue tracking), various command-line interfaces 
 \end{itemize}
 \end{document}
 
-
+\renewcommand(\maketitle){}
 
