@@ -1,13 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.24)  23 JAN 2020 22:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.24)  23 JAN 2020 22:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**\input diodato-resume.tex
-(./diodato-resume.tex (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+**\input cover-letter-template.tex
+(./cover-letter-template.tex
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -343,37 +344,39 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 17.
 
-(./diodato-resume.aux)
-\openout1 = `diodato-resume.aux'.
+(./cover-letter-template.aux)
+\openout1 = `cover-letter-template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 29.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 47.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
 LaTeX Font Info:    Try loading font information for OT1+LinuxLibertineT-TLF on
- input line 29.
+ input line 47.
+
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/OT1LinuxLibertineT-TLF.fd
 File: OT1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for OT1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 29.
+(Font)              scaled to size 12.0pt on input line 47.
 \c@mv@tabular=\count101
 \c@mv@boldtabular=\count102
 
@@ -396,12 +399,12 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 * \topmargin=-37.0pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=10.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=65.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -442,7 +445,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box28
-Package hyperref Info: Link coloring ON on input line 29.
+Package hyperref Info: Link coloring ON on input line 47.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -452,60 +455,44 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count109
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
+LaTeX Info: Redefining \ref on input line 47.
+LaTeX Info: Redefining \pageref on input line 47.
+LaTeX Info: Redefining \nameref on input line 47.
 
-(./diodato-resume.out) (./diodato-resume.out)
+(./cover-letter-template.out) (./cover-letter-template.out)
 \@outlinefile=\write3
-\openout3 = `diodato-resume.out'.
+\openout3 = `cover-letter-template.out'.
 
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 47.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/sc' will be
-(Font)              scaled to size 10.0pt on input line 47.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/sc' will be
-(Font)              scaled to size 14.4pt on input line 47.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 49.
-LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
- input line 51.
-
-(/usr/share/texlive/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd
-File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/
-LinuxLibertineT-TLF.
-)
-LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 51.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 65.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/sl' in size <10> not 
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 97.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/sl' in size <12> not 
 available
 (Font)              Font shape `OT1/LinuxLibertineT-TLF/m/it' tried instead on 
-input line 113.
+input line 97.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 113.
+(Font)              scaled to size 12.0pt on input line 97.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 113.
+(Font)              scaled to size 24.88pt on input line 97.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 113.
+(Font)              scaled to size 14.4pt on input line 97.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 97.
 <phone.png, id=4, 24.09pt x 24.09pt>
 File: phone.png Graphic file (type png)
 <use phone.png>
-Package pdftex.def Info: phone.png  used on input line 113.
+Package pdftex.def Info: phone.png  used on input line 97.
 (pdftex.def)             Requested size: 10.84006pt x 10.84001pt.
 <email.png, id=6, 385.44pt x 385.44pt>
 File: email.png Graphic file (type png)
 <use email.png>
-Package pdftex.def Info: email.png  used on input line 113.
+Package pdftex.def Info: email.png  used on input line 97.
 (pdftex.def)             Requested size: 10.84006pt x 10.8393pt.
 <url.png, id=8, 385.44pt x 385.44pt>
 File: url.png Graphic file (type png)
 <use url.png>
-Package pdftex.def Info: url.png  used on input line 113.
+Package pdftex.def Info: url.png  used on input line 97.
 (pdftex.def)             Requested size: 10.84006pt x 10.8393pt.
 LaTeX Font Info:    Try loading font information for OT1+LinuxLibertineMonoT-TL
-F on input line 113.
+F on input line 97.
 
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/OT1LinuxLibertineMonoT-TLF.f
 d
@@ -513,85 +500,57 @@ File: OT1LinuxLibertineMonoT-TLF.fd 2017/03/20 (autoinst) Font definitions for
 OT1/LinuxLibertineMonoT-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineMonoT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 113.
+(Font)              scaled to size 10.95pt on input line 97.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 113.
+(Font)              <10.95> on input line 97.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 113.
+(Font)              <8> on input line 97.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 97.
 <linkedin.png, id=10, 385.44pt x 385.44pt>
 File: linkedin.png Graphic file (type png)
 <use linkedin.png>
-Package pdftex.def Info: linkedin.png  used on input line 113.
+Package pdftex.def Info: linkedin.png  used on input line 97.
 (pdftex.def)             Requested size: 10.84006pt x 10.8393pt.
 <github.png, id=12, 385.44pt x 385.44pt>
 File: github.png Graphic file (type png)
 <use github.png>
-Package pdftex.def Info: github.png  used on input line 113.
+Package pdftex.def Info: github.png  used on input line 97.
 (pdftex.def)             Requested size: 10.84006pt x 10.8393pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 50.95515pt.
+ Make it at least 53.95935pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./phone.png> <./email.png> <./url.png> <./linkedin.png> <./github.png>]
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 161.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
-File: phone.png Graphic file (type png)
-<use phone.png>
-Package pdftex.def Info: phone.png  used on input line 165.
-(pdftex.def)             Requested size: 10.84006pt x 10.84001pt.
-File: email.png Graphic file (type png)
-<use email.png>
-Package pdftex.def Info: email.png  used on input line 165.
-(pdftex.def)             Requested size: 10.84006pt x 10.8393pt.
-File: url.png Graphic file (type png)
-<use url.png>
-Package pdftex.def Info: url.png  used on input line 165.
-(pdftex.def)             Requested size: 10.84006pt x 10.8393pt.
-File: linkedin.png Graphic file (type png)
-<use linkedin.png>
-Package pdftex.def Info: linkedin.png  used on input line 165.
-(pdftex.def)             Requested size: 10.84006pt x 10.8393pt.
-File: github.png Graphic file (type png)
-<use github.png>
-Package pdftex.def Info: github.png  used on input line 165.
-(pdftex.def)             Requested size: 10.84006pt x 10.8393pt.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
- (./diodato-resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
-Package rerunfilecheck Info: File `diodato-resume.out' has not changed.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 97.
+ (./cover-letter-template.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 97.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 97.
+Package rerunfilecheck Info: File `cover-letter-template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 97.
  ) 
 Here is how much of TeX's memory you used:
- 8083 strings out of 492982
- 124942 string characters out of 6134895
- 210027 words of memory out of 5000000
- 11553 multiletter control sequences out of 15000+600000
- 18090 words of font info for 33 fonts, out of 8000000 for 9000
+ 8059 strings out of 492982
+ 124054 string characters out of 6134895
+ 209283 words of memory out of 5000000
+ 11535 multiletter control sequences out of 15000+600000
+ 15153 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,14n,68p,225b,542s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_kijugd.enc}{/us
-r/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/shar
-e/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_lyu3x3.enc}{/usr/share/texl
-ive/texmf-dist/fonts/enc/dvips/libertine/lbtn_tk3eej.enc}{/usr/share/texlive/te
-xmf-dist/fonts/enc/dvips/libertine/lbtn_3dk467.enc}{/usr/share/texlive/texmf-di
-st/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}</usr/share/texlive/texmf-dist/fon
-ts/type1/public/libertine/LinLibertineMT.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/libertine/LinLibertineTB.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/libertine/LinLibertineTI.pfb>
-Output written on diodato-resume.pdf (2 pages, 308586 bytes).
+ 36i,14n,68p,593b,497s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_3dk467.enc}{/us
+r/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}</usr/shar
+e/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineMT.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb>
+Output written on cover-letter-template.pdf (1 page, 146151 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
+ 38 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
+ 2 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
